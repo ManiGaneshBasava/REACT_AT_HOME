@@ -1,0 +1,192 @@
+.signin {
+    position: absolute;
+    width: 480px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+
+}
+
+.image-style {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 450px;
+    top: -35px;
+    background: purple;
+}
+
+.form-style {
+    position: absolute;
+    width: 360px;
+    height: 440px;
+    left: 30px;
+    top: 300px;
+
+}
+
+.label-style {
+    width: 360px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #14213C;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input-style {
+    box-sizing: border-box;
+
+    width: 360px;
+    height: 40px;
+
+    /* Brand Lite Blue/10 */
+
+    background: #F7F9FD;
+    /* Brand Lite Blue/100 */
+
+    border: 1px solid #B3C7E7;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    margin-top: 5px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.margin {
+    margin: 20px;
+}
+
+h {
+    position: absolute;
+    height: 40px;
+    left: 20px;
+    /* right: 0px; */
+    bottom: 480px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+
+
+    /* Brand Dark Blue/100 */
+
+    color: #14213C;
+}
+
+p {
+    position: absolute;
+    left: 20px;
+    right: 30px;
+    /* top: 10px; */
+    bottom: 420px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+
+    /* Brand Dark Blue/40 */
+
+    color: #A1A6B1;
+
+}
+
+.terms {
+    position: absolute;
+    left: 15px;
+    font-size: 14px;
+}
+
+.forgot {
+    position: absolute;
+    height: 14px;
+    left: 200px;
+    /* right: 70.83%; */
+    /* top: calc(50% - 14px/2 + 61px); */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: right;
+
+    margin-top: 5px;
+    /* Brand Dark Blue/40 */
+
+    color: #A1A6B1;
+
+}
+
+.button-login {
+    position: absolute;
+    left: 19px;
+    right: 0px;
+    top: 220px;
+    bottom: 50px;
+    width: 360px;
+    height: 40px;
+    background: #153D77;
+    border-radius: 6px;
+    border: none;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-signup-google {
+    position: absolute;
+    left: 50px;
+    /* right: px; */
+    bottom:270px;
+    width: 360px;
+    height: 40px;
+    /* Org Color/100 */
+
+    background: #EA4335;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+.login-style {
+    position: absolute;
+    width: 360px;
+    height: 16px;
+    left: 40px;
+    /* top: 500px; */
+    bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #A1A6B1;
+}
