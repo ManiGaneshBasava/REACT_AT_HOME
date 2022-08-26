@@ -67,8 +67,7 @@ function Home() {
                     <td>{each.newAccount.number}</td>
                     <td>{each.newAccount.email}</td>
                     <td>{each.newAccount.country}</td>
-                    <td>{<button >Edit</button>}
-                    {<button onClick={(e)=>deleteHandler(each)}>Delete</button>}</td>
+                    <td>{<button onClick={(e)=>deleteHandler(each)}>Delete</button>}</td>
                 </tr>
         )
     })
